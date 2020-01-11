@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TripToMountain</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trip_to">Trip To</string>
+    <string name="mountain">Mountain</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="start">Start</string>
+    <string name="trip_to_mountain">TRIP TO MOUNTAIN</string>
+    <string name="manajemen_perjalanan">MANAJEMEN PERJALANAN</string>
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="applicant_name">Android Codility</string>
+    <string name="intro_slider">Android Introduction Slider is basically used to introduce the major features of the application to the user. It also attracts and helps the user to know about the app. It is also called android welcome screen and is used to guide the user on how to use the app just after installation. It is used in almost all popular apps and games these days.   To make the intro slider we will make 3-4 slide screens having swipe gesture facilities with a skip and next navigation buttons. The user can navigate to other welcome screen using swipe gesture or by using the next button. After that, the user can navigate to the home screen or login screen. Intro slider is basically shown once after the installation and after that user directly interact with the home screen.</string>
+    <string name="sumatera_utara">SUMATERA UTARA</string>
+    <string name="nama_gunung">Nama Gunung : </string>
+    <string name="ketinggian">Ketinggian : </string>
+    <string name="ya">YA</string>
+    <string name="tidak">Tidak</string>
+    <string name="tentukan_lokasi_dan_level_mendaki">Tentukan Lokasi dan Level Mendaki</string>
+    <string name="jika_ini_adalah_kesempatan_pertama_anda_untuk_mendaki_gunung_jangan_serakah_dan_langsung_menjajal_lokasi_yang_sulit_untuk_di_capai_dengan_level_kesulitan_yang_tinggi_carilah_lokasi_hiking_santai_di_sekitar_area_anda_yang_masi_bias_di_tempuh_dan_dihabiskan_alam_waktu_kurang_dari_satu_hari_dan_tidak_mengharuskan_anda_untuk_membawa_tenda_atau_membawa_baju_ganti_ekstra">Jika ini adalah kesempatan pertama Anda untuk mendaki gunung, jangan serakah dan langsung menjajal lokasi yang sulit untuk di capai dengan level kesulitan yang tinggi. Carilah lokasi hiking santai di sekitar area anda yang masi bias di tempuh dan dihabiskan alam waktu kurang dari satu hari dan tidak mengharuskan anda untuk membawa tenda atau membawa baju ganti ekstra.</string>
+    <string name="cek_lokasi_dan_cuaca">Cek Lokasi dan Cuaca</string>
+    <string name="sebelum_naik_gunung_cek_kabar_cuaca_di_internet_atau_tanyakan_dengan_petugas_pengawas_di_lokasi_tentang_cuaca_hari_itu_jika_diperkirakan_akan_ada_kabut_tebal_hujan_besar_terutama_badai_petir_apalagi_siaga_merapi_jangan_kekeuh_memaksakan_naik_gunung_dan_datang_kembali_lain_waktu">Sebelum naik gunung, Cek kabar cuaca di internet atau tanyakan dengan petugas pengawas di lokasi tentang cuaca hari itu. Jika diperkirakan akan ada kabut tebal, hujan besar (terutama badai petir), apalagi siaga merapi, jangan kekeuh memaksakan naik gunung dan datang kembali lain waktu.</string>
+    <string name="persiapan_fisik">Persiapan Fisik</string>
+    <string name="naik_gunung_membutuhkan_fisik_yang_prima_ini_karena_tubuh_bias_membakar_energi_yang_bukan_main_besarnya_selama_mendaki_kurang_lebih_8_jam_di_area_ekstrim_selain_itu_olahraga_ini_juga_menyimpan_berbagai_risiko_kesehatan_yang_wajib_anda_waspada_mulai_dari_hipotermia_asma_dan_pingsan_anda_perlu_membangung_keseimbangan_fleksibilitas_serta_kekuatan_pada_kaki_dan_otot_punggung_anda_untuk_dapat_melewati_jalur_dakian_olahraga_juga_dapat_membantu_anda_untuk_menguatkan_punggung_dan_bahu_untuk_membawa_tas_ransel_gunung_yang_berat_totalnya_bias_mencapai_18_kilogram">Naik gunung membutuhkan fisik yang prima. Ini karena tubuh bias membakar energi yang bukan main besarnya selama mendaki kurang lebih 8 jam di area ekstrim. Selain itu, Olahraga ini juga menyimpan berbagai risiko kesehatan yang wajib Anda waspada mulai dari hipotermia, asma dan pingsan. Anda perlu membangung keseimbangan, fleksibilitas serta kekuatan pada kaki dan otot punggung Anda untuk dapat melewati jalur dakian. Olahraga juga dapat membantu Anda untuk menguatkan punggung dan bahu untuk membawa tas ransel gunung yang berat totalnya bias mencapai 18 kilogram.</string>
+    <string name="perhatikan_asupan_makanan_sebelum_mendaki_gunung">Perhatikan Asupan Makanan Sebelum Mendaki Gunung</string>
+    <string name="makanan_persiapan_naik_gunung_yang_ideal_seharusnya_mengandung_tinggi_karbohidrat_dan_protein_misalnya_telur_rebus_atau_seporsi_nasi_putih_hangat_dengan_lauk_daging_pilihan_anda_serta_sayuran_ini_adalah_pilihan_sarapan_yang_cerdas_sebelum_mendaki_gunung_dan_bawalah_persediaan_makanan_yang_cukup_ketika_melakukan_pendakian_yang_sesuai_dengan_beberapa_lama_pendaki">Makanan Persiapan naik gunung yang ideal seharusnya mengandung tinggi karbohidrat dan protein. Misalnya telur rebus atau seporsi nasi putih hangat dengan lauk daging pilihan Anda serta sayuran. Ini adalah pilihan sarapan yang cerdas sebelum mendaki gunung dan bawalah persediaan makanan yang cukup ketika melakukan pendakian yang sesuai dengan beberapa lama pendaki</string>
+</resources>

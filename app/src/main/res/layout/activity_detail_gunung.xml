@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_halaman"
+    tools:context=".detail_gunung.DetailGunung">
+
+    <TextView
+        android:id="@+id/headerDetailGunung"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_header"
+        android:gravity="center"
+        android:text="@string/trip_to_mountain"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerDetailGunung">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp">
+
+
+            <ImageView
+                android:id="@+id/detailImageGunung"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sinabung"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvNamaGunung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/nama_gunung"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/detailImageGunung" />
+
+            <TextView
+                android:id="@+id/edtNamaGunung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sinabung"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/tvNamaGunung"
+                app:layout_constraintTop_toBottomOf="@+id/detailImageGunung"
+                app:layout_constraintTop_toTopOf="@+id/tvNamaGunung" />
+
+            <TextView
+                android:id="@+id/tvKetinggian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ketinggian"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tvNamaGunung"
+                app:layout_constraintTop_toBottomOf="@+id/tvNamaGunung" />
+
+            <TextView
+                android:id="@+id/edtKetinggian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2460 M"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/tvKetinggian"
+                app:layout_constraintTop_toBottomOf="@+id/edtNamaGunung" />
+
+            <TextView
+                android:id="@+id/tvProvinsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provinsi : "
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tvKetinggian"
+                app:layout_constraintTop_toBottomOf="@+id/tvKetinggian" />
+
+            <TextView
+                android:id="@+id/edtProvinsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUMATERA UTARA"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/tvProvinsi"
+                app:layout_constraintTop_toBottomOf="@+id/edtKetinggian" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/tvDescription"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Description : "-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:textStyle="bold"-->
+            <!--                app:layout_constraintStart_toStartOf="@+id/tvProvinsi"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/tvProvinsi" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/edtDescription"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="0dp"-->
+            <!--                android:layout_marginStart="5dp"-->
+            <!--                android:text="Gunung Geureudong atau Bur ni Geureudong atau Bur ni Telong adalah gunung stratovolcano di Provinsi Aceh, Indonesia. Nama resmi untuk kompleks gunung berapi ini masih menjadi perdebatan, karena posisi Bur ni Geureudong dan Bur ni Telong yang berdekatan."-->
+            <!--                android:textSize="15sp"-->
+            <!--                android:textStyle="bold"-->
+            <!--                app:layout_constraintStart_toStartOf="@+id/tvDescription"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/tvDescription" />-->
+
+            <CalendarView
+                android:id="@+id/calender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/spinner1"
+                app:layout_constraintTop_toBottomOf="@+id/edtProvinsi" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnBooking"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <Button
+                android:id="@+id/btnBooking"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_booking"
+                android:drawableStart="@drawable/bag"
+                android:paddingStart="10dp"
+                android:text="Booking"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

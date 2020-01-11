@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen1">
+
+
+    <TextView
+        android:id="@+id/txtSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtJudulSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/tentukan_lokasi_dan_level_mendaki"
+        android:textColor="@android:color/white"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtSatu"
+        app:layout_constraintStart_toStartOf="@+id/txtSatu"
+        app:layout_constraintTop_toBottomOf="@+id/txtSatu" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="2dp"
+        android:text="@string/jika_ini_adalah_kesempatan_pertama_anda_untuk_mendaki_gunung_jangan_serakah_dan_langsung_menjajal_lokasi_yang_sulit_untuk_di_capai_dengan_level_kesulitan_yang_tinggi_carilah_lokasi_hiking_santai_di_sekitar_area_anda_yang_masi_bias_di_tempuh_dan_dihabiskan_alam_waktu_kurang_dari_satu_hari_dan_tidak_mengharuskan_anda_untuk_membawa_tenda_atau_membawa_baju_ganti_ekstra"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtJudulSatu"
+        app:layout_constraintStart_toStartOf="@+id/txtJudulSatu"
+        app:layout_constraintTop_toBottomOf="@+id/txtJudulSatu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

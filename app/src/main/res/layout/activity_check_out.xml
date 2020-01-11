@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_halaman"
+    tools:context=".checkout.CheckOut">
+
+    <TextView
+        android:id="@+id/headerCheckOut"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_header"
+        android:gravity="center"
+        android:text="@string/trip_to_mountain"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#50000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerCheckOut" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardChechout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardCornerRadius="20dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerCheckOut">
+
+        <ImageView
+            android:id="@+id/imageCheckout"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"
+            android:src="@drawable/sinabung" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textOpenTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Open Trip Sinabung"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardChechout" />
+
+    <TextView
+        android:id="@+id/textBookingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Booking Date : "
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/textOpenTrip"
+        app:layout_constraintTop_toBottomOf="@+id/textOpenTrip" />
+
+    <TextView
+        android:id="@+id/edtDateChechout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 January 2020"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/textBookingDate"
+        app:layout_constraintTop_toTopOf="@+id/textBookingDate" />
+
+    <TextView
+        android:id="@+id/textPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Person : "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/textBookingDate"
+        app:layout_constraintTop_toBottomOf="@+id/textBookingDate" />
+
+    <TextView
+        android:id="@+id/edtPersonCheokout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Orang"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/textPerson"
+        app:layout_constraintTop_toTopOf="@+id/textPerson" />
+
+    <TextView
+        android:id="@+id/textSubtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal : "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/textPerson"
+        app:layout_constraintTop_toBottomOf="@+id/textPerson" />
+
+    <TextView
+        android:id="@+id/edtSubtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp.200.000"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/textSubtotal"
+        app:layout_constraintTop_toBottomOf="@id/edtPersonCheokout" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total : "
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtTotal"
+        app:layout_constraintTop_toTopOf="@+id/edtTotal" />
+
+    <TextView
+        android:id="@+id/edtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:text="Rp.200.000"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckOut"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnCheckOut"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_booking"
+        android:drawableStart="@drawable/bag"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="PROCEED TO CHECKOUT"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edtTotal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

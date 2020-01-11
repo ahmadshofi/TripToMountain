@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_screen2">
+
+    <TextView
+        android:id="@+id/txtSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="2"
+        android:textColor="@android:color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtJudulSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/persiapan_fisik"
+        android:textColor="@android:color/white"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtSatu"
+        app:layout_constraintStart_toStartOf="@+id/txtSatu"
+        app:layout_constraintTop_toBottomOf="@+id/txtSatu" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="2dp"
+        android:text="@string/naik_gunung_membutuhkan_fisik_yang_prima_ini_karena_tubuh_bias_membakar_energi_yang_bukan_main_besarnya_selama_mendaki_kurang_lebih_8_jam_di_area_ekstrim_selain_itu_olahraga_ini_juga_menyimpan_berbagai_risiko_kesehatan_yang_wajib_anda_waspada_mulai_dari_hipotermia_asma_dan_pingsan_anda_perlu_membangung_keseimbangan_fleksibilitas_serta_kekuatan_pada_kaki_dan_otot_punggung_anda_untuk_dapat_melewati_jalur_dakian_olahraga_juga_dapat_membantu_anda_untuk_menguatkan_punggung_dan_bahu_untuk_membawa_tas_ransel_gunung_yang_berat_totalnya_bias_mencapai_18_kilogram"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtJudulSatu"
+        app:layout_constraintStart_toStartOf="@+id/txtJudulSatu"
+        app:layout_constraintTop_toBottomOf="@+id/txtJudulSatu" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

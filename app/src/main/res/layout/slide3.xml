@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_screen3">
+
+    <TextView
+        android:id="@+id/txtSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="3"
+        android:textColor="@android:color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtJudulSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/cek_lokasi_dan_cuaca"
+        android:textColor="@android:color/white"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtSatu"
+        app:layout_constraintStart_toStartOf="@+id/txtSatu"
+        app:layout_constraintTop_toBottomOf="@+id/txtSatu" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="2dp"
+        android:text="@string/sebelum_naik_gunung_cek_kabar_cuaca_di_internet_atau_tanyakan_dengan_petugas_pengawas_di_lokasi_tentang_cuaca_hari_itu_jika_diperkirakan_akan_ada_kabut_tebal_hujan_besar_terutama_badai_petir_apalagi_siaga_merapi_jangan_kekeuh_memaksakan_naik_gunung_dan_datang_kembali_lain_waktu"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtJudulSatu"
+        app:layout_constraintStart_toStartOf="@+id/txtJudulSatu"
+        app:layout_constraintTop_toBottomOf="@+id/txtJudulSatu" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
